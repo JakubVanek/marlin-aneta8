@@ -90,7 +90,7 @@
 #define MSG_LEVEL_CORNERS                   _UxGT("Vyrovnat rohy")
 #define MSG_NEXT_CORNER                     _UxGT("Další roh")
 #define MSG_EDITING_STOPPED                 _UxGT("Konec úprav sítě")
-
+#define MSG_USER_MENU                       _UxGT("Vlastní příkazy")
 #define MSG_UBL_DOING_G29                   _UxGT("Provádím G29")
 #define MSG_UBL_UNHOMED                     _UxGT("Přejeďte domů")
 #define MSG_UBL_TOOLS                       _UxGT("UBL nástroje")
@@ -173,7 +173,6 @@
 #define MSG_INTENSITY_W                     _UxGT("Bílá intenzita")
 #define MSG_LED_BRIGHTNESS                  _UxGT("Jas")
 
-#define MSG_USER_MENU                       _UxGT("Vlastní příkazy")
 #define MSG_MOVING                          _UxGT("Posouvání...")
 #define MSG_FREE_XY                         _UxGT("Uvolnit XY")
 #define MSG_MOVE_X                          _UxGT("Posunout X")
@@ -391,9 +390,6 @@
   #define MSG_FILAMENT_CHANGE_INIT_1        _UxGT("Čekejte prosím")
   #define MSG_FILAMENT_CHANGE_INIT_2        _UxGT("na zahájení")
   #define MSG_FILAMENT_CHANGE_INIT_3        _UxGT("výměny filamentu")
-  #define MSG_FILAMENT_CHANGE_UNLOAD_1      _UxGT("Čekejte prosím")
-  #define MSG_FILAMENT_CHANGE_UNLOAD_2      _UxGT("na vysunuti")
-  #define MSG_FILAMENT_CHANGE_UNLOAD_3      _UxGT("filamentu")
   #define MSG_FILAMENT_CHANGE_INSERT_1      _UxGT("Vložte filament")
   #define MSG_FILAMENT_CHANGE_INSERT_2      _UxGT("a stiskněte")
   #define MSG_FILAMENT_CHANGE_INSERT_3      _UxGT("tlačítko...")
@@ -401,6 +397,9 @@
   #define MSG_FILAMENT_CHANGE_HEAT_2        _UxGT("nahřátí trysky")
   #define MSG_FILAMENT_CHANGE_HEATING_1     _UxGT("Čekejte prosím")
   #define MSG_FILAMENT_CHANGE_HEATING_2     _UxGT("na nahřátí tr.")
+  #define MSG_FILAMENT_CHANGE_UNLOAD_1      _UxGT("Čekejte prosím")
+  #define MSG_FILAMENT_CHANGE_UNLOAD_2      _UxGT("na vysunuti")
+  #define MSG_FILAMENT_CHANGE_UNLOAD_3      _UxGT("filamentu")
   #define MSG_FILAMENT_CHANGE_LOAD_1        _UxGT("Čekejte prosím")
   #define MSG_FILAMENT_CHANGE_LOAD_2        _UxGT("na zavedení")
   #define MSG_FILAMENT_CHANGE_LOAD_3        _UxGT("filamentu")
@@ -412,9 +411,10 @@
 #else // LCD_HEIGHT < 4
   // Up to 2 lines allowed
   #define MSG_FILAMENT_CHANGE_INIT_1        _UxGT("Čekejte...")
-  #define MSG_FILAMENT_CHANGE_UNLOAD_1      _UxGT("Vysouvání...")
   #define MSG_FILAMENT_CHANGE_INSERT_1      _UxGT("Vložte, klikněte")
+  #define MSG_FILAMENT_CHANGE_HEAT_1        _UxGT("Klik pro nahřátí")
   #define MSG_FILAMENT_CHANGE_HEATING_1     _UxGT("Nahřívání...")
+  #define MSG_FILAMENT_CHANGE_UNLOAD_1      _UxGT("Vysouvání...")
   #define MSG_FILAMENT_CHANGE_LOAD_1        _UxGT("Zavádění...")
   #define MSG_FILAMENT_CHANGE_PURGE_1       _UxGT("Vytlačování...")
   #define MSG_FILAMENT_CHANGE_RESUME_1      _UxGT("Pokračování...")

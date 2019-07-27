@@ -87,7 +87,7 @@
 #define MSG_LEVEL_CORNERS                   _UxGT("Vyrovnat rohy")
 #define MSG_NEXT_CORNER                     _UxGT("Dalsi roh")
 #define MSG_EDITING_STOPPED                 _UxGT("Konec uprav site")
-
+#define MSG_USER_MENU                       _UxGT("Vlastni prikazy")
 #define MSG_UBL_DOING_G29                   _UxGT("Provadim G29")
 #define MSG_UBL_UNHOMED                     _UxGT("Prejedte domu")
 #define MSG_UBL_TOOLS                       _UxGT("UBL nastroje")
@@ -170,7 +170,6 @@
 #define MSG_INTENSITY_W                     _UxGT("Bila intenzita")
 #define MSG_LED_BRIGHTNESS                  _UxGT("Jas")
 
-#define MSG_USER_MENU                       _UxGT("Vlastni prikazy")
 #define MSG_MOVING                          _UxGT("Posouvani...")
 #define MSG_FREE_XY                         _UxGT("Uvolnit XY")
 #define MSG_MOVE_X                          _UxGT("Posunout X")
@@ -388,9 +387,6 @@
   #define MSG_FILAMENT_CHANGE_INIT_1        _UxGT("Cekejte prosim")
   #define MSG_FILAMENT_CHANGE_INIT_2        _UxGT("na zahajeni")
   #define MSG_FILAMENT_CHANGE_INIT_3        _UxGT("vymeny filamentu")
-  #define MSG_FILAMENT_CHANGE_UNLOAD_1      _UxGT("Cekejte prosim")
-  #define MSG_FILAMENT_CHANGE_UNLOAD_2      _UxGT("na vysunuti")
-  #define MSG_FILAMENT_CHANGE_UNLOAD_3      _UxGT("filamentu")
   #define MSG_FILAMENT_CHANGE_INSERT_1      _UxGT("Vlozte filament")
   #define MSG_FILAMENT_CHANGE_INSERT_2      _UxGT("a stisknete")
   #define MSG_FILAMENT_CHANGE_INSERT_3      _UxGT("tlacitko...")
@@ -398,6 +394,9 @@
   #define MSG_FILAMENT_CHANGE_HEAT_2        _UxGT("nahrati trysky")
   #define MSG_FILAMENT_CHANGE_HEATING_1     _UxGT("Cekejte prosim")
   #define MSG_FILAMENT_CHANGE_HEATING_2     _UxGT("na nahrati tr.")
+  #define MSG_FILAMENT_CHANGE_UNLOAD_1      _UxGT("Cekejte prosim")
+  #define MSG_FILAMENT_CHANGE_UNLOAD_2      _UxGT("na vysunuti")
+  #define MSG_FILAMENT_CHANGE_UNLOAD_3      _UxGT("filamentu")
   #define MSG_FILAMENT_CHANGE_LOAD_1        _UxGT("Cekejte prosim")
   #define MSG_FILAMENT_CHANGE_LOAD_2        _UxGT("na zavedeni")
   #define MSG_FILAMENT_CHANGE_LOAD_3        _UxGT("filamentu")
@@ -409,9 +408,10 @@
 #else // LCD_HEIGHT < 4
   // Up to 2 lines allowed
   #define MSG_FILAMENT_CHANGE_INIT_1        _UxGT("Cekejte...")
-  #define MSG_FILAMENT_CHANGE_UNLOAD_1      _UxGT("Vysouvani...")
   #define MSG_FILAMENT_CHANGE_INSERT_1      _UxGT("Vlozte, kliknete")
+  #define MSG_FILAMENT_CHANGE_HEAT_1        _UxGT("Klik pro nahrati")
   #define MSG_FILAMENT_CHANGE_HEATING_1     _UxGT("Nahrivani...")
+  #define MSG_FILAMENT_CHANGE_UNLOAD_1      _UxGT("Vysouvani...")
   #define MSG_FILAMENT_CHANGE_LOAD_1        _UxGT("Zavadeni...")
   #define MSG_FILAMENT_CHANGE_PURGE_1       _UxGT("Vytlacovani...")
   #define MSG_FILAMENT_CHANGE_RESUME_1      _UxGT("Pokracovani...")
