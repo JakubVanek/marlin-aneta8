@@ -39,7 +39,7 @@
 #define DISPLAY_CHARSET_ISO10646_CZ
 #define CHARSIZE 2
 
-#define WELCOME_MSG                         MACHINE_NAME _UxGT(" připraven.")
+#define WELCOME_MSG                         MACHINE_NAME _UxGT(" připravena.")
 #define MSG_BACK                            _UxGT("Zpět")
 #define MSG_SD_INSERTED                     _UxGT("Karta vložena")
 #define MSG_SD_REMOVED                      _UxGT("Karta vyjmuta")
